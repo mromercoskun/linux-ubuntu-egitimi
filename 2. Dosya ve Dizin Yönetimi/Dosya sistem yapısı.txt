@@ -1,0 +1,73 @@
+Linux dosya sistemi, ağaç yapısına (tree structure) benzer.
+
+Her şey kök dizin olan / işaretiyle başlar.
+
+Tüm dosyalar, klasörler ve aygıtlar bu kök (/) altında yer alır.
+
+=======================================================================================
+
+Önemli Dizinler ve Görevleri
+Dizin	Görevi
+/	Tüm dosya sisteminin başlangıç noktasıdır (root/kök dizin).
+/home	Her kullanıcı için kişisel dizin içerir. Örn: /home/omer
+/root	Sistem yöneticisinin (root) kendi dizini.
+/bin	Temel sistem komutları (örneğin: ls, cp, mv) buradadır.
+/sbin	Sadece root kullanıcısının çalıştırabileceği sistem araçları.
+/etc	Konfigürasyon dosyaları burada bulunur. (örn: ağ, servis ayarları)
+/var	Değişken veriler: loglar, e-posta, spool dosyaları.
+/usr	Uygulamalar ve onların kütüphaneleri.
+/opt	Harici yazılım paketleri (örnek: Google Chrome)
+/tmp	Geçici dosyalar (yeniden başlatıldığında silinir)
+/dev	Donanım aygıt dosyaları. (örnek: /dev/sda1 → bir disk bölümü)
+/proc	Sistem ve işlem bilgileri. Sanal bir dosya sistemidir.
+/boot	Önyükleyici dosyaları (GRUB, kernel) burada bulunur.
+/lib	Paylaşımlı kütüphaneler (.so dosyaları)
+/media	Takılı USB, CD gibi medya aygıtları için otomatik klasör.
+/mnt	Geçici olarak bağlı diskler için kullanılır.
+/srv	Sunucuya özel hizmet dosyaları (örn: web sitesi içerikleri)
+
+=======================================================================================
+
+Kullanıcı Dizini: /home
+
+Her kullanıcı için bir klasör açılır:
+
+/home/omer
+/home/ali
+
+=======================================================================================
+
+Sistem ve Komutlar Nerede?
+
+Komutlar (örneğin ls, cd, mkdir) sistemin çalışabilmesi için bazı dizinlere dağılmıştır:
+
+/bin: Temel komutlar
+/sbin: Sistem yönetim komutları
+/usr/bin: Uygulama komutları
+/usr/sbin: Sistem uygulamaları
+
+=======================================================================================
+Aygıtlar: /dev
+Linux’ta donanımlar da “dosya” gibi temsil edilir. Örnekler:
+
+/dev/sda → Ana sabit disk
+/dev/sda1 → Diskin 1. bölümü
+/dev/tty0 → Terminal ekranı
+
+Bu yapı sayesinde yazılım donanımı dosya gibi yönetebilir.
+=======================================================================================
+
+Log Dosyaları: /var/log
+Sistem olaylarının kaydı tutulur. Örnekler:
+
+/var/log/syslog: Sistem genel logları
+/var/log/auth.log: Kimlik doğrulama girişimleri
+/var/log/apache2/: Web sunucusu logları
+=======================================================================================
+Root Kullanıcı ve /root
+
+Root = Süper kullanıcı
+
+Root’un kendi kişisel dizini /home/root değil, doğrudan /root dizinidir
+
+=======================================================================================
