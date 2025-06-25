@@ -1,0 +1,18 @@
+Merhaba,
+Local ortamımızda ubuntu işletim sistemini kurmamız gerekmektedir. Bunun için windows üzerinden hyper-v veya vmware workstation sanallaştırma ortamında ubuntu işletim sistemi nasıl kurulur, neler gerekmektedir aşağıda yer almaktadır.
+
+Arkadaşlar Broadcam üzerinde kullanıcı hesabınızın olması gerekmektedir. Kullanıcı girişi yaptıktan sonra ücretsiz şekilde indirebilirsiniz.
+VMware Workstation 17 
+İndirme Linki : https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
+
+Ubuntu Desktop
+
+https://ubuntu.com/download/desktop
+
+Bu linkten Masaüstü Desktop LTS versiyon en son güncel versiyon 22.04.02 LTS Iso dosyasını indirebilirsiniz.
+
+Ubuntu Server
+
+https://ubuntu.com/download/server
+
+Bu linkten LTS versiyon en son güncel versiyon 22.04.02 LTS Iso dosyasını indirebilirsiniz.

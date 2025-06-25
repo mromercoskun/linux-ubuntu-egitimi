@@ -1,0 +1,32 @@
+Temel Terminal Komutları ile terminali tanıyacağız. Terminal üzerinde gezinmemize ve bilmemiz gereken başlıca en önemli komutlar şunlar
+
+
+pwd - Bu komut terminale giriş yaptınız ve nerede olursanız hangi dizin altında olursanız bu komutu çalıştırdığınız zaman size olduğunuz dizini gösterir. Linux'de dosya sistemleri arasında gezindikçe bazen nerede hangi dizin altında olduğunuzu basit ve kısa yoldan
+      öğrenmek için kullanılır. Print Working Directory olarak bilinir.
+
+      Örnek çıktı : pwd
+                    /home/omer
+
+ls - Bu komut ise olduğunuz dizin içerisinde olan dosya ve klasörleri listelemele yarar. Bu komutu parametreler ile de kullanarak daha detaylı listemele yapılabilir. Örnek vermek gerekirse bir klasör içerisinde neler var diye görmek istediğimizde, veya bir dosyanın 
+      ne zaman oluşturulduğu, yetkileri gibi detayları listeleyebiliriz. Aşağıdaki örnek parametlerle kullanılabilir.
+
+      ls -l - liste halinde gösterir
+      ls -a - gizli dosyalarıda gösterir
+      ls -lah
+      ls -lahtr
+
+cd - Bu komut dizinler arası gezinmek için kullanılır. Yani bir klasör içerisindesiniz ve onun içerisinde abc isminde bir klasör içerisine girmek için cd komutu kullanılır. Açılımı change directory olarak bilinir.
+
+     klasör içerisine girmek için cd abc/
+     klasörden geri bir alt dizine çıkmak için ise cd .. kullanılır.
+     Ana klasöre dönmek için ise cd ~ komutu kullanılır.
+
+mkdir - Bu komut klasör oluşturmak için kullanılır. 
+
+        mkdir egitim
+
+rm - Bu komut dosya veya klasör silmek için kullanılır. Açılımı remove olarak bilinir. Parametreleri vardır. Aşağıda ki şekilkde kullanılabilir, dosyalar kalıcı silinir.
+
+     rm dosyaadı - dosya silmek için kullanılır
+     rm -r klasoradi - klasör silmek için kullanılır
+     rm -rf klasor/dosyaa - klasor veya dosya silmek icin kullanılır
